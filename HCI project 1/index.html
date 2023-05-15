@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aquatic World</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        
+    </head>
+
+    <body>
+
+        <!--    SHOPPING CART OVERLAY     -->
+    <div class="cart-modal-overlay">
+        <div class="cart-modal">
+          <i id="close-btn" class="fas fa-times"></i>
+            <h1 class="cart-is-empty">Cart is empty</h1>
+          
+            <div class="product-rows">
+            </div>
+            <div class="total">
+              <h1 class="cart-total">TOTAL</h1>
+                <span class="total-price">₱0</span>
+                  <button class="purchase-btn">PURCHASE</button>
+            </div>
+          </div>
+    </div>
+
+        <!--   MAIN CONTENT PAGE     -->
+        <div id="container">
+            
+            <!--    HERO SECTION     -->
+            <div id="hero-section">
+                <div id="navbar">
+                    <div id="navbar-logo">
+                        <a href="#hero-section">
+                            <img src="images/main-logo.png" alt="">
+                        </a>
+                    </div>
+                    <ul id="header-links">
+                        <li><a href="#hero-section">Home</a></li>
+                        <li><a href="#info-section">Info</a></li>
+                        <li><a href="#product-section">Products</a></li> 
+                        <li><a href="#staff-section">Staff</a></li> 
+                        <li>
+                            <i id="cart" class="fas fa-shopping-cart"></i>
+                            <span class="cart-quantity">0</span>
+                        </li>
+                            
+
+                    </ul>
+                </div>
+
+                    <div id="hero-main-content">
+                        <h1>Aquatic World</h1>
+                        <p>For marine life pets and Aquarium tanks, Aquatic World is here for you! </p>
+                        <a href="#info-section"><button>Explore</button></a>
+                    </div>
+
+                    <div id="hero-main-content-description">
+
+                        <div id="prd">
+                            <div id="product-container">
+                                <a href="#product-section">
+                                    <img src="images/prd1.jpg" alt="">
+                                </a> 
+                            </div>
+
+                            <div id="product-container">
+                                <a href="#product-section">
+                                    <img src="images/prd2.jpg" alt="">
+                                </a> 
+                            </div>
+                        </div>
+          
+                    </div>
+            </div>
+
+            <!--    INFO SECTION     -->
+            <div id="info-section">
+                <div id="info-section-container">
+                    <div id="info-section-content">
+                        <h2>About us</h2>
+                        <p>Aquatic World provides products and services, from
+                        marine life pets and accessories 
+                        to personalizing their tanks and aquariums that
+                        best fit your home, workplace, etc.
+                        </p>   
+                        <h2>Why Choose Us?</h2>
+
+                        <div class="info-section-description">
+                            <div class="description-icon">
+                                <img src="images/icons/experienced-staff.png" alt="">
+                            </div>
+                                <p>Experienced Staff</p>
+                        </div>
+
+                        <div class="info-section-description">
+                            <div class="description-icon">
+                                <img src="images/icons/pre-ordering.png" alt="">
+                            </div>
+                                <p>Pre-Ordering Online</p>
+                        </div>
+
+                        <div class="info-section-description">
+                            <div class="description-icon">
+                                <img src="images/icons/affordable-cost.png" alt="">
+                            </div>
+                                <p>Affordable Cost</p>
+                         </div>
+                    </div>
+
+                    <div id="info-section-image">
+                        <img src="images/infosecimg.jpg " alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--   PRODUCT SECTION   -->
+            <div id="product-section">
+                <div id="product-cntnr">
+                    <div id="product">
+                        <img class="product-image" src="images/pets/clownfish.webp" alt="">
+                        <h3>Clown fish</h3>
+                        <span class="product-price">$2.42</span>
+                        <div id="button-container">
+                            
+                        </div>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/pets/axolot.webp" alt="">
+                        <h3>Axolotl</h3>
+                        <span class="product-price">$3.99</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/pets/goldfish.webp" alt="">
+                        <h3>Gold fish</h3>
+                        <span class="product-price">$3.57</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/pets/seahorse.webp" alt="">
+                        <h3>Sea horse</h3>
+                        <span class="product-price">$2.53</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/pets/Pufferfish.webp" alt="">
+                        <h3>Pufferfish</h3>
+                        <span class="product-price">$4.27</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/tanks/tank1.jpg" alt="">
+                        <h3>Tank 1</h3>
+                        <span class="product-price">$198.99</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/tanks/tank2.jpg" alt="">
+                        <h3>Tank 2</h3>
+                        <span class="product-price">$56.99</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/tanks/tank3.jpg" alt="">
+                        <h3>Tank 3</h3>
+                        <span class="product-price">$82.40</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/tanks/tank4.jpg" alt="">
+                        <h3>Tank 4</h3>
+                        <span class="product-price">$76.99</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                    <div id="product">
+                        <img class="product-image" src="images/tanks/tank5.jpg" alt="">
+                        <h3>Tank 5</h3>
+                        <span class="product-price">$56.99</span>
+                        <button class="add-to-cart">Add to cart</button>
+                    </div>
+
+                </div>
+            </div> 
+
+            <!--    STAFF SECTION    -->
+            <div id="staff-section">
+                <div id="staff-section-header">
+                    <h1>Who we are?</h1>
+                </div>
+
+                <div id="staff-section-container">
+
+                    <div class="staff-section-content">
+                        <div class="image">
+                            <img src="images/ceo.jpg" alt="">
+                        </div>
+                        <h4>
+                            CEO
+                        </h4>
+                        <p>
+                        Introducing Morgan Freeman, he is the ideal candidate to help your company achieve its goals and reach new levels of success.
+                        </p>
+                    </div>
+
+                    <div class="staff-section-content">
+                        <div class="image">
+                            <img src="images/co-founder.jpg" alt="">
+                        </div>
+                        <h4>
+                            Co-founder
+                        </h4>
+                        <p>
+                        Meet Walter White, the co-founder of Aquatic World, who has been driving the company towards success since its inception.
+                        </p>
+                        
+                    </div>
+
+                    <div class="staff-section-content">
+                        <div class="image">
+                            <img src="images/financial-officer.jpg" alt="">
+                        </div>
+                        <h4>
+                            Financial-officer
+                        </h4>
+                        <p>
+                        Sarah Morac, Sarah is responsible for managing the financial operations of the company and ensuring its financial stability and growth.
+                        </p>
+                    </div>
+
+                    <div class="staff-section-content">
+                        <div class="image">
+                            <img src="images/head-of-enterprise.jpg" alt="">
+                        </div>
+                        <h4>
+                            Head of enterprise
+                        </h4>
+                        <p>
+                        Introducing Shay Coramc, Shay is an accomplished executive with a proven track record of driving growth and success in the enterprise.
+                        </p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <!--    FOOT SECTION    -->
+            <div id="foot-section">
+                <div id="foot-section-content-container">
+
+                    <div id="foot-section-image">
+                        <img src="images/logo-footer.png" alt="">   
+                    </div>
+
+                    <div id="foot-section-description">
+                        <h1>Aquatic World</h1>
+                        <p>
+                            At Aquatic World, we are passionate about providing fish enthusiasts 
+                            with a wide selection of beautiful and healthy aquatic creatures.
+                        </p>
+
+                        <p>
+                            We also believe that an aquarium is more than just a tank of water - it's a
+                            captivating centerpiece that adds beauty and serenity to any space. 
+                        </p>
+                    </div>
+
+                    <div id="foot-section-links">
+                        <h1>Quick Links</h1>
+
+                        <a href="#hero-section">Home</a>
+                        <a href="#info-section">Info</a>
+                        <a href="#product-section">Products</a> 
+                        <a href="#staff-section">Staff</a> 
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
